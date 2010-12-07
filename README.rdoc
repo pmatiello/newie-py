@@ -1,7 +1,8 @@
 = newie
 
 Newie for Python is the fastest dependency injection framework ever.
-Based in Newie for Ruby, which is based in vapor.js, newie allows you
+
+Based in Newie for Ruby, which is based in vapor.js, Newie allows you
 to inject your dependencies in a way that no other controller allows you.
 
 == First example
@@ -44,6 +45,7 @@ The Roadmap is a long way to go but we are waiting for contributions to this git
 == Copyright
 
 Copyright (c) 2010 Pedro Matiello
+
 Copyright (c) 2010 Guilherme Silveira
 
 See COPYING for further details.
