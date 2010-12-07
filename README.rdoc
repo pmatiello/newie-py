@@ -1,30 +1,29 @@
 = newie
 
-Newie for Ruby is the fastest dependency injection framework ever.
-Based in vapor.js, newie allows you to inject your dependencies in a way that no
-other controller allows you.
+Newie for Python is the fastest dependency injection framework ever.
+Based in Newie for Ruby, which is based in vapor.js, newie allows you
+to inject your dependencies in a way that no other controller allows you.
 
 == First example
 
 You can instantiate any dependency you need, ever:
 
-	Object.new
+	object()
 
 == Complex example
 
 For example, imagine two different models:
 
-	class Foo
-		def initialize(dependency)
-			@dependency = dependency
-		end
-	end
-	class Bar
-	end
-	
-Using newie for Ruby:
+	class foo(object):
+		def __init__(self, dependency)
+			self.dependency = dependency
 
-	Foo.new(Bar.new)
+	class bar(object):
+		pass
+	
+Using newie for Python:
+
+	foo(bar())
 	
 The fastest ever!
 
@@ -40,10 +39,12 @@ The Roadmap is a long way to go but we are waiting for contributions to this git
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+* Please try not to mess with the Makefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 
-Copyright (c) 2010 guilherme silveira. See LICENSE.txt for
-further details.
+Copyright (c) 2010 Pedro Matiello
+Copyright (c) 2010 Guilherme Silveira
+
+See LICENSE.txt for further details.
 
