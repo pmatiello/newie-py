@@ -46,5 +46,5 @@ The Roadmap is a long way to go but we are waiting for contributions to this git
 Copyright (c) 2010 Pedro Matiello
 Copyright (c) 2010 Guilherme Silveira
 
-See LICENSE.txt for further details.
+See COPYING for further details.
 
